@@ -1,0 +1,17 @@
+﻿# Secret credentials - NEVER upload these to GitHub
+service_account.json
+token.json
+credentials.json
+*.json
+assistant_memory.json
+
+# Sensitive personal/testimony data
+*.xlsx
+*.xls
+*.csv
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+.env
